@@ -50,6 +50,7 @@ function App() {
       <div className="App">
         <div className="container">
           <h1>Everybody likes kitties</h1>
+          <h2>Me too</h2>
           <button onClick={cardWithLikes} isActive={sortItems}>Sort liked kittie`s</button>
           {!mainState.isLoaded  ?
               <Loader/> :
